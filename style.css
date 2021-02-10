@@ -1,0 +1,77 @@
+*{margin:5px;
+    padding: 30px;
+    }
+    .button {
+    width: 75px;
+    height: 50px;
+    font-size: 50px;
+
+    margin: 5px;
+    cursor: pointer;
+    border:3cm
+    }
+    input {
+      width:90%;
+    }
+
+      #result {
+      font-size: 60px;
+      font-family: 'DIGITALDREAM', Arial, sans-serif;
+      font-weight:normal;
+     font-style:normal;
+   }
+#result {
+  animation: blinker 2s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+      @font-face {
+      font-family: "DIGITALDREAM";
+      src: url("DIGITALDREAM.ttf");
+}
+
+    }
+  #resultbutton{
+      background-color:gray;
+    }
+    #resultbutton3{
+        background-color:red;
+      }
+        #resultbutton4{
+            background-color:green;
+      }
+      #resultbutton2{
+          background-color:orange;
+        }
+      .text{
+      font-weight: 700;
+      }
+        }
+    ////**:
+    .title{
+         margin-bottom: 10px;
+         text-align:center;
+         width: 210px;
+         color:green;
+         border: solid black 2px;
+         }
+
+         input[type="button"]
+         {
+         background-color:green;
+         color: black;
+         border: solid black 2px;
+         width:100%
+         }
+
+         input[type="text"]
+         {
+         background-color:white;
+         border: solid black 2px;
+         width:100%
+         }
